@@ -9,11 +9,32 @@
   <h1>My Profile</h1>
 </header>
 <article>
-
+  <div class ="container">
+   <div class="aboutME">
+    <h2>I am a web developer with a few websites</h2>
+    <p>I have been working independently on my own websites</p>
+   </div>
+   <div class="skills">
+    <h2>My Skills</h2>
+    <p>I have worked with the HTML DOM as well as styling with CSS. In addition I have made websites dynamic and interactive with JavaScript.</p>
+   </div>
+   <div class="projects">
+    <h2>My Projects</h2>
+    <p>Here are examples of my work:</p>
+  </div>
+  </div>
 </article>
 
 <figure>
-
+  <form action="" method="POST">
+    <label for="years" aria-label="Years of experience">Years of experience:</label>
+    <input type="number" id="years" name="years" step="1" required min="0" max="65">
+    <br>
+    <label for="about" aria-label="Tell me about yourself">Tell me about your skills:</label>
+    <textarea id="about" name="about" rows="4" cols="50" required></textarea>
+    <br>
+    <input type="submit" value="send">
+  </form>
 </figure>
 
 <footer>
