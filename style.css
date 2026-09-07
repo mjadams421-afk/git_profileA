@@ -51,7 +51,8 @@ article .container .projects {
 }
 
 figure {
- display: flex;
+ display: inline-flex;
+ flex-flow: column;
  width: 50%;
  height: auto;
  position: relative;
