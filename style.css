@@ -84,13 +84,18 @@ figure form:hover {
  cursor: pointer;
 }
 
-footer {
-  display: inline-flex;
+footer .HLine, footer .BLine, footer .RLine, footer .ELine {
+  display: flex;
   width: 100%;
   height: auto;
   border: 5px solid black;
   font-size: 1.4rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
 }
 
 footer h4 {
